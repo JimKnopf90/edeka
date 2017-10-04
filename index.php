@@ -160,27 +160,27 @@
                     <p id="contactUs">ÖFFNUNGSZEITEN</p>                    
                     <div class="divHome">
                         <i>►</i>
-                        <i class="footerColumnText">Mo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 - 20:00 Uhr</i>
+                        <i class="footerColumnText">Mo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:00 - 22:00 Uhr</i>
                     </div>
                     <div class="divHome">
                         <i>►</i>
-                        <i class="footerColumnText">Di: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 - 20:00 Uhr</i>
+                        <i class="footerColumnText">Di: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:00 - 22:00 Uhr</i>
                     </div>
                     <div class="divHome">
                         <i>►</i>
-                        <i class="footerColumnText">Mi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 - 20:00 Uhr</i>
+                        <i class="footerColumnText">Mi: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:00 - 22:00 Uhr</i>
                     </div>
                     <div class="divHome">
                         <i>►</i>
-                        <i class="footerColumnText">Do: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 - 20:00 Uhr</i>
+                        <i class="footerColumnText">Do: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:00 - 22:00 Uhr</i>
                     </div>
                     <div class="divHome">
                         <i>►</i>
-                        <i class="footerColumnText">Fr: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 - 20:00 Uhr</i>
+                        <i class="footerColumnText">Fr: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:00 - 22:00 Uhr</i>
                     </div>
                     <div class="divHome">
                         <i>►</i>
-                        <i class="footerColumnText">Sa: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;09:30 - 20:00 Uhr</i>
+                        <i class="footerColumnText">Sa: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;08:00 - 22:00 Uhr</i>
                     </div>
                 </div>
                 <div id="divFootColumn3" class="footerColumn">
@@ -211,12 +211,11 @@
                      </div>
                 </div>
                 <div id="divFootColumn4" class="footerColumn">
-                    <p id="contactUs">NEWSLETTER</p>
-                    <form>
-                        <input class="txtNewsletter" type="text" placeholder="Name">
-                        <input class="txtNewsletter" type="text" placeholder="E-Mail">
-                        <a href="" class="btnSend mail">&nbsp;&nbsp;&nbsp;Anfordern</a> 
-                    </form>
+                    <p id="contactUs">KOOPERATIONSPARTNER</p>
+                    <div class="divHome">
+                        <i>►</i>
+                        <i class="footerColumnText"><a class="normalLink" href="http://www.tsvtm.de/" target="_blank">TSV Tempelhof-Mariendorf e.V.</a></i>
+                     </div>                    
                 </div>                
 		    </div>
             <div id="divFooterRow">
@@ -226,7 +225,7 @@
                     </a>    
                 </div>
                 <div id="divLinks">
-                    <a class="normalLink" href="templates\edeka\sites\aboutus.html">
+                    <a class="normalLink" href="templates\edeka\sites\impressum.html">
                         <span>Impressum</span>
                     </a>
                 </div>

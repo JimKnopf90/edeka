@@ -866,3 +866,16 @@ a.normalLink:hover {
 
 
 
+
+.impressum {
+    text-align: center;
+    padding: 10px;
+}
+
+.txtBus {
+    background-color: darkviolet;
+    color: white;
+    padding: 1px;
+    font-weight: bold;
+
+}
