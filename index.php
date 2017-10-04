@@ -12,6 +12,8 @@
     <meta charset="utf-8"/>
 </head>
 <body>
+    <div id="Infobar">
+    </div>
 	<div id="divAll-Wrapper">
 		<div id="divTop-wrapper"> 
             <a href="index.php">

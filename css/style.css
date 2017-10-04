@@ -879,3 +879,9 @@ a.normalLink:hover {
     font-weight: bold;
 
 }
+
+#Infobar {
+    background-color: black;
+    width: 1000px;
+    height: 30px;
+}
