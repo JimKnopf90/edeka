@@ -880,8 +880,81 @@ a.normalLink:hover {
 
 }
 
-#Infobar {
+
+
+#openPositions {
+    background-color: white;
+    width: 100%;
+    margin-right: 10px;    
+}
+
+#divInfobox {    
+    width: 30%;
+    margin-left: 10px;    
+    display: flex;
+    flex-flow: wrap;
+}
+
+#divInfobox1 {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+#divInfobox2 {
+    background-color: white;
+    width: 100%;   
+    display: flex;
+    flex-flow: column-reverse;
+    
+}
+
+.carrerContactPerson {
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 20px;
+    color: white;  
+    
+}
+
+#divCarrerBoxTitle {
+    background-color: #1abc9c;
+    width: 100%;    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 5px;
+    
+}
+
+#divCarrerContactPersonContext {
     background-color: black;
-    width: 1000px;
-    height: 30px;
+}
+
+#divCarrerOpenPositionsContent {
+    
+    
+}
+
+#openPositionList li:nth-child(even) {
+    background-color: #f2f2f2
+}
+#openPositionList li:hover {
+    background-color: lightgrey;
+    color: white;
+    cursor: pointer;   
+}
+#ball:visited   {
+    background-color: aqua;
+}
+
+#openPositionList li {
+    padding-top: 25px;
+    height: 50px;
+    padding-left: 10px;
+    margin: 0 auto;
+    font-size: 16px;    
+    opacity: 1;    
+    transition: all 0.2s ease-in-out;
 }

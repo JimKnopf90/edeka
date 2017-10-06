@@ -56,47 +56,35 @@
 		</div>
 		<div id="divContent-Wrapper">
 			<div id="divContentLeft-Wrapper">
-                <div id="locationInfo">
-                    <p id="contactUs">Standort:</p>
-                    <span><b>EDEKA Lenkeit</b></span><br>
-                    <span>Rixdorfer Str. 67-69</span><br>
-                    <span>Rixdorfer 12109 Berlin</span><br>   
-                    <span>Deutschland</span><br><br><br>
-                    <p id="contactUs">Öffentlicher Nahverkehr:</p>
+                <div id="openPositions">
+                      <div id="divCarrerBoxTitle">
+                            <span class="carrerContactPerson">-------OFFENE STELLEN-------</span>                         
+                        </div>  
+                    <div id="divCarrerOpenPositionsContent">
+                        <ul id="openPositionList">
+                            <li>Ausbildung als Bäckereifachverkäufer/in</li>
+                            <li>Verkäufer Vollzeit</li>
+                            <li>Verkäufer Teilzeit</li>
+                            <li><a href="#" id=ball>Dualer Student Wirtschaftsinformatik</a></li>
+                          </ul>
+                    </div>
+                   
                 </div>                
             </div>			
 			<div id="divContentRight-Wrapper">
-				<div id="divMainContent">                    
-                    
-                        <div id="map">
-                        <script>
-                            var marker;
-
-                            function initMap() {
-                            var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 17, center: {lat: 52.44807999999999, lng: 13.40476000000001}
-                            });
-
-                            marker = new google.maps.Marker({
-                            map: map,
-                            draggable: true,
-                            animation: google.maps.Animation.DROP,
-                            position: {lat: 52.44807999999999, lng: 13.40476000000001}
-                            });
-                            marker.addListener('click', toggleBounce);
-                            }                           
-
-                            function toggleBounce() {
-                            if (marker.getAnimation() !== null) {
-                            marker.setAnimation(null);
-                            } else {
-                                marker.setAnimation(google.maps.Animation.BOUNCE);
-                                }
-                            }                           
-   
-                            </script>
-                            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAK92_lP61tld2eR-FBcabMhUQZ1ojYUk&callback=initMap" async defer></script> 
-                    </div>                                         
+				<div id="divMainContent">        
+                                                            
+                </div>
+                <div id="divInfobox"> 
+                    <div id="divInfobox1"></div>
+                    <div id="divInfobox2">
+                        <div id="divCarrerBoxTitle">
+                            <span class="carrerContactPerson">ANSPRECHPARTNER</span>                        
+                        </div>
+                        <div id="divCarrerContactPersonContext">
+                        </div>
+                        
+                    </div>                                        
                 </div>
 			</div>
 		</div>

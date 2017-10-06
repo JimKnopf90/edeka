@@ -11,9 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta charset="utf-8"/>
 </head>
-<body>
-    <div id="Infobar">
-    </div>
+<body>   
 	<div id="divAll-Wrapper">
 		<div id="divTop-wrapper"> 
             <a href="index.php">
