@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/slider.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans+Condensed:300" rel="stylesheet">
     <script src="templates/edeka/js/jquery-3.2.1.min.js" type="text/javascript"></script>
-    <script src="templates/edeka/js/animations.js" type="text/javascript"></script>
+    <script src="templates/edeka/js/home.js" type="text/javascript"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta charset="utf-8"/>
 </head>
@@ -81,46 +81,58 @@
 		<div id="divContent-Wrapper">
 			<div id="divContentLeft-Wrapper">
 				<div id="divContentColumn1">                    
-                    <div id="divContent1">
-                        <div class="triggerC1">
+                    <div id="divContent1" class="triggerC1">
+                        <div id="frontContent1">
                             <p> Paula Panzer</p>
                             <div class="circle">                           
                                 <img src="templates/edeka/images/Person1.jpg" alt="Mitarbeiter 1">                          
                             </div>
-                            <p><b>Geschäftsführerin</b></p>                       
+                            <span><b>Geschäftsführerin</b></span><br><br>                      
                             <i id="seeMore"><i id="check" class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;...erfahre mehr</i> 
                         </div>
+                         <div id="backContent1">
+                           <span>das ist die Rückseite</span>
+                        </div>
                     </div>                   
-					<div id="divContent2" >
-                        <div class="triggerC2">
+					<div id="divContent2" class="triggerC2">
+                        <div id="frontContent2">
                             <p> Paula Panzer</p>
                             <div class="circle">                           
                                 <img src="templates/edeka/images/Person2.jpg" alt="Mitarbeiter 1">                          
                             </div>
-                            <p><b>Geschäftsführerin</b></p>
+                            <span><b>Geschäftsführerin</b></span><br><br>     
                             <i id="seeMore"><i id="check" class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;...erfahre mehr</i> 
+                        </div>
+                         <div id="backContent2">
+                           <span>das ist die Rückseite</span>
                         </div>
                     </div>
 				</div>
 				<div id="divContentColumn2">
-					<div id="divContent3" >
-                        <div class="triggerC3">
+					<div id="divContent3" class="triggerC3">
+                        <div id="frontContent3">
                             <p> Paula Panzer</p>
                             <div class="circle">                           
                                 <img src="templates/edeka/images/Person2.jpg" alt="Mitarbeiter 1">                          
                             </div>
-                            <p><b>Geschäftsführerin</b></p>
+                            <span><b>Geschäftsführerin</b></span><br><br>     
                             <i id="seeMore"><i id="check" class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;...erfahre mehr</i> 
                         </div>
+                         <div id="backContent3">
+                           <span>das ist die Rückseite</span>
+                        </div>
                     </div>
-					<div id="divContent4" >
-                        <div class="triggerC4">
+					<div id="divContent4" class="triggerC4">
+                        <div id="frontContent4">
                             <p> Paula Panzer</p>
                             <div class="circle">                           
                                 <img src="templates/edeka/images/Person1.jpg" alt="Mitarbeiter 1">                          
                             </div>
-                            <p><b>Geschäftsführerin</b></p>
+                            <span><b>Geschäftsführerin</b></span><br><br>     
                             <i id="seeMore"><i id="check" class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;...erfahre mehr</i> 
+                        </div>
+                         <div id="backContent4">
+                           <span>das ist die Rückseite</span>
                         </div>
                     </div>
 				</div>

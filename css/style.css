@@ -170,8 +170,7 @@ a.normalLink:hover {
     align-items: center;
     flex-direction: column;
     height: 293.33px;
-    
-   
+    text-align: center;       
 }
 @keyframes wiggle {    
     33% {
@@ -198,17 +197,17 @@ a.normalLink:hover {
 }
 
 .triggerC1.clicked {
-    animation: turn 0.2s ease-in-out 0s 1 forwards;    
+    animation: turn 0.2s ease-in-out 0s 1 forwards !important;  
 }
 
 .triggerC2.clicked {
-    animation: turn 0.2s ease-in-out 0s 1 forwards;    
+    animation: turn 0.2s ease-in-out 0s 1 forwards !important;      
 }
 .triggerC3.clicked {
-    animation: turn 0.2s ease-in-out 0s 1 forwards;    
+    animation: turn 0.2s ease-in-out 0s 1 forwards !important;     
 }
 .triggerC4.clicked {
-    animation: turn 0.2s ease-in-out 0s 1 forwards;    
+    animation: turn 0.2s ease-in-out 0s 1 forwards !important;    
 }
 
 
@@ -219,7 +218,7 @@ a.normalLink:hover {
 #divContent2:hover {    
     cursor: pointer;
     box-shadow: 1px -5px 106px -20px rgba(0,0,0,0.69);
-    animation: wiggle 0.3s ease-in-out 0s 1;
+    animation: wiggle 0.3s ease-in-out 0s 1;    
 }
 
 #divContent2:hover #check {
@@ -247,7 +246,8 @@ a.normalLink:hover {
 } 
 
 #seeMore {
-    font-size: 10px;    
+    font-size: 10px;  
+    margin-bottom: 1px;
 }
 
 #check {
@@ -263,6 +263,7 @@ a.normalLink:hover {
     align-items: center;
     flex-direction: column;	
     height: 293.33px;
+    text-align: center;
 }
 
 #divContent3 {
@@ -274,6 +275,7 @@ a.normalLink:hover {
     align-items: center;
     flex-direction: column;
     height: 293.33px;
+    text-align: center;
 }
 
 #divContent4 {
@@ -284,6 +286,7 @@ a.normalLink:hover {
     align-items: center;
     flex-direction: column;
     height: 293.33px;
+    text-align: center;
 }
 
 .circle {  
@@ -918,7 +921,7 @@ a.normalLink:hover {
 }
 
 #divCarrerBoxTitle {
-    background-color: #1abc9c;
+    background-color: #007FAB;
     width: 100%;    
     height: 40px;
     display: flex;
@@ -941,12 +944,9 @@ a.normalLink:hover {
     background-color: #f2f2f2
 }
 #openPositionList li:hover {
-    background-color: lightgrey;
+    background-color: lightgrey !important;
     color: white;
     cursor: pointer;   
-}
-#ball:visited   {
-    background-color: aqua;
 }
 
 #openPositionList li {
@@ -954,7 +954,47 @@ a.normalLink:hover {
     height: 50px;
     padding-left: 10px;
     margin: 0 auto;
-    font-size: 16px;    
-    opacity: 1;    
+    font-size: 16px;     
     transition: all 0.2s ease-in-out;
+} 
+
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {  
+  opacity:0;  
+  animation:fadeIn ease-in 1;  
+  animation-fill-mode:forwards;  
+  animation-duration:1s;
+}
+
+.fade-in.one {
+    animation-delay: 0.7s;
+}
+
+.fade-in.two {
+    animation-delay: 0.9s;
+}
+
+.fade-in.three {
+    animation-delay: 1.1s;
+}
+
+.fade-in.four {
+    animation-delay: 1.3s;
+}
+
+#backContent1 {
+    display: none;
+}
+
+#backContent2 {
+    display: none;
+}
+
+#backContent3 {
+    display: none;
+}
+
+#backContent4 {
+    display: none;
 }
