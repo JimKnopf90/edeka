@@ -5,9 +5,7 @@
     overflow: hidden;  
 }
 
-#divHeader img {
-    max-width: 100%;
-    width: 100%;
+#divHeader img {    
     height: auto;     
 }
 
