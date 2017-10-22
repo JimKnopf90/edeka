@@ -35,7 +35,7 @@ window.onload = function() {
     function loadConten(data) {
         var client = new XMLHttpRequest();
         
-        client.open('GET', '/edeka/templates/edeka/sites/' + data + '.html');        
+        client.open('GET', '/templates/edeka/sites/' + data + '.html');        
         client.onreadystatechange = function() {        
             document.getElementById('divMainContent').innerHTML =  client.responseText;
 }
