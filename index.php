@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>" >
-<head>	   
+<head>	
+    <title>Edeka Lenkeit</title>
+    <meta name="description" content="Edeka Sascha Lenkeit Rixdorfer Str. 67-69, 12109 Berlin Öffnungszeiten Mo - Sa 08:00 - 22:00 Uhr"/>
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/template.css" type="text/css" />  
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/font-awesome.min.css" type="text/css" />     
     <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/css/style.css" type="text/css" />        
@@ -14,7 +16,7 @@
 <body>   
 	<div id="divAll-Wrapper">
 		<div id="divTop-wrapper"> 
-            <a href="index.php">
+            <a href="">
                 <div id="divLogo">
                     <img id="logo" src="templates/edeka/images/logo.png" alt="logo"> 
                 </div>
@@ -23,31 +25,31 @@
                 <nav>
                     <ul>
                         <li>
-                            <a id="navAboutus" href="templates\edeka\sites\aboutus.html">            
+                            <a id="navAboutus" href="templates\edeka\sites\aboutus">            
                                 <i class="fa fa-building fa-2x" aria-hidden="true"></i>
                                 <span>ÜBER UNS</span>
                             </a>
                         </li>
                         <li>
-                            <a id="navEvents" href="templates\edeka\sites\events.html">
+                            <a id="navEvents" href="templates\edeka\sites\events">
                                 <i class="fa fa-calendar-check-o fa-2x" aria-hidden="true"></i>
                                 <span>EVENTS</span>
                             </a>
                         </li>
                         <li>
-                            <a id="navCarrer" href="templates\edeka\sites\carrer.html">
+                            <a id="navCarrer" href="templates\edeka\sites\carrer">
                                 <i class="fa fa-users fa-2x" aria-hidden="true"></i>
                                 <span>KARRIERE</span>
                             </a>
                         </li>
                         <li>
-                            <a id="navLocation" href="templates\edeka\sites\location.html"> 
+                            <a id="navLocation" href="templates\edeka\sites\location"> 
                                 <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                                 <span>STANDORT</span>
                             </a>
                         </li>
                         <li>
-                            <a href="index.php" id="navHome" class="selectedHome">
+                            <a href="" id="navHome" class="selectedHome">
                                 <i class="fa fa-home fa-2x" aria-hidden="true"></i>
                                 <span>HOME</span>                   
                             </a>
